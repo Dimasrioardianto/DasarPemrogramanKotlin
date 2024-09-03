@@ -8,5 +8,5 @@ fun main(args: Array<String>){
     val valBinary =0b00001011 // Literal binry diawali dgn 0b
     println("Contoh Literal Binary: "+valBinary)
     val notasiKonvensional =123.5e10
-    println("Contoh Literal Konvensional Floating Point Number: "+ notasiKonvensional)
+    println("Contoh Literal Konvensional Floating Point Number: "+notasiKonvensional)
 }
