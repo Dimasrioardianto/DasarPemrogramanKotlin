@@ -4,6 +4,6 @@ fun main(args: Array<String>){
         |Teach me and I remember.
         |Involve me and I learn.
         |(Benjamin Franklin)
-    """.trimIndent()
+    """.trimMargin()
     println(text)
 }
