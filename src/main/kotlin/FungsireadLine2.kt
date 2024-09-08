@@ -1,3 +1,4 @@
+
 //program ini utk merubah nilai string yg dikembalikan oleh fungsi readline kedalam nilai yg diinginkan bisa dilakukan dgn menggunakan konversi secara eksplisit
 fun main(args : Array<String>){
     //penguraian program pengganda
