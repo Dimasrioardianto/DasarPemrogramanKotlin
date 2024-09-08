@@ -7,5 +7,5 @@ fun main(args: Array<String>){
     var phi = 3.14  //phi dari val diubah ke var,sehingga program bisa dijalankan
     println("Nilai awal phi ="+phi)//disini jg saya tambah pritnln agar nilai phi dapat dicetak
     phi = 2.5
-    println("Nilai baru phi ="+phi)
+    println("Nilai baru phi ="+ phi)
 }
