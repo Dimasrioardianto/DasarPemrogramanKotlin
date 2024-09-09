@@ -1,23 +1,24 @@
-fun main(args: Array<String>){
-   val s = ".. - .-.- ... --- -.- . .-. .. .-.-.."
+fun main(args: Array<String>) {
+   // split() and joinToString()
+   // Morse code decoder
+   // the string which we want to decode
+   val s = ".. -.-. - ... --- -.-. .. .- .-.."
    println("The original message: $s")
-
-   //the string with the decoded message
-   var message =""
-
-   //array definitions
+   // the string with the decoded message
+   var message = ""
+   // array definitions
    val alphabetChars = "abcdefghijklmnopqrstuvwxyz"
    val morseChars = arrayOf(".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-",
       ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--..")
-
-   val characters =s.split("")
-
-   for(morseChar in characters){
+      // splitting the string into Morse characters
+      val characters = s.split(" ")
+   // iterating over Morse characters
+   for (morseChar in characters) {
       val index = morseChars.indexOf(morseChar)
-
-      if(index != -1){
+      // character was found
+      if (index != -1) {
          message += alphabetChars[index]
       }
    }
-   println("The Decoded message: $message")
+   println("The decoded message: $message")
 }
