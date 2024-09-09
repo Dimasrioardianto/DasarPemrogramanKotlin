@@ -1,6 +1,7 @@
 //program utk mencari huruf konsonan&huruf vokal
 fun main(args:Array<String>){
-    var s ="A programer gets stuck in the showe because the instructions on the shampoo were: Lather, Wash, and Repeat ."
+    var s ="A programer gets stuck in the showe because the instructions " +
+            "on the shampoo were" + ": " + "Lather, Wash, and Repeat ."
     println(s)
     s= s.toLowerCase()
 
