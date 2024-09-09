@@ -1,3 +1,4 @@
+
 //perintah masukkan dikotlin yaitu fungsi redline, perintah ini akan mengembalikan nilai string ke dlm variabel penampung
 fun main(args :Array<String>){
     //program burung beo
